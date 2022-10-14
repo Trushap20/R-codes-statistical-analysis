@@ -27,7 +27,7 @@ for (pkg in pkgs) {
 
 library(vroom)
 
-data <- vroom("^FCHI.csv")
+data <- vroom("cac40-stock-index.csv")
 data <-na.omit(data)
 data[complete.cases(data),]
 FCHI <- data$Close

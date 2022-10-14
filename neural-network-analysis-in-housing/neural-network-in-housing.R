@@ -1,7 +1,7 @@
 #  Deep Neural Networks and its application using R #
 
 
-data<- read.csv(file="housing.csv")
+data<- read.csv(file="Housing.csv")
 library(dplyr)
 library(neuralnet)
 library(Metrics)
